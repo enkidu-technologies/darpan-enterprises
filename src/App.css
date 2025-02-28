@@ -1,0 +1,21 @@
+.carousel-image{
+    height: 550px !important;
+}
+.carousel-image .img{
+    background-position: bottom !important;
+    background-size: cover !important;
+}
+
+footer{
+    padding: 50px;
+    border-top: 1px solid #e0e0e0;
+}
+footer .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+footer .flex ul li{
+    list-style: none;
+    margin-left: -30px;
+}
