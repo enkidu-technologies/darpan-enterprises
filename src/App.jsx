@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Components
-import Navbar from './components/navbar'
+import MyNavbar from './components/navbar'
 import Footer from './components/footer';
 // Pages
 import Home from './pages/home';
@@ -13,7 +13,7 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <BrowserRouter>
-        <Navbar/>
+        <MyNavbar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
