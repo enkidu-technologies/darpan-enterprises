@@ -1,17 +1,17 @@
 import React from 'react'
-import CarouselSection from '../components/home/CarouselSection'
 import HeroSection from '../components/home/HeroSection'
+import AboutSection from '../components/home/AboutSection'
 import ServicesSection from '../components/home/ServicesSection'
-import CardSection from '../components/home/CardSection'
+import ContactSection from '../components/home/ContactSection'
 
 const Home = () => {
 
   return (
     <>
-      <CarouselSection />
       <HeroSection />
+      <AboutSection />
       <ServicesSection />
-      <CardSection />
+      <ContactSection />
     </>
   )
 }
