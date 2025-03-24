@@ -3,7 +3,7 @@ import logo from "../images/DE.png";
 
 const Footer = () => {
   return (
-    <footer className="container-fluid p-5 border-top">
+    <footer className="container-fluid p-lg-5 p-2 border-top">
       <div className="container">
         <div className="d-flex align-items-center p-2">
           <img src={logo} alt="logo" width={70} />
@@ -19,19 +19,19 @@ const Footer = () => {
           <i className="bi bi-instagram"></i>
           <i className="bi bi-linkedin"></i>
         </div>
-        <div className="d-flex justify-content-between align-items-start p-5">
+        <div className="d-flex justify-content-between align-items-start p-2 flex-wrap gap-5">
           <div>
             <h4>Menu</h4>
-            <p><a href="">Home</a></p>
-            <p><a href="">About</a></p>
-            <p><a href="">Services</a></p>
-            <p><a href="">Contact</a></p>
+            <p><a href="/">Home</a></p>
+            <p><a href="/about">About</a></p>
+            <p><a href="/services">Services</a></p>
+            <p><a href="/contact">Contact</a></p>
           </div>
           <div>
             <h4>Tech Stack</h4>
-            <p><a href="">Bootstrap 5 Framework</a></p>
-            <p><a href="">React.js Library</a></p>
-            <p><a href="">React-bootstrap</a></p>
+            <p><a href="https://getbootstrap.com/" target="_blank">Bootstrap 5 Framework</a></p>
+            <p><a href="https://react.dev/" target="_blank">React.js Library</a></p>
+            <p><a href="https://react-bootstrap.netlify.app" target="_blank">React-bootstrap</a></p>
           </div>
           <div>
             <h4>Social</h4>

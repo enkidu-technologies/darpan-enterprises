@@ -3,7 +3,7 @@ import React from "react";
 const AboutSection = () => {
   return (
     <div className="bg-primary text-light">
-      <div className="container p-5">
+      <div className="container p-lg-5 p-3">
         <h2 className="text-center">About Us</h2>
         <i className="bi bi-app-indicator fs-1"></i>
         <h4>At Darpan Enterprises,</h4>

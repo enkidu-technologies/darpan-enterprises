@@ -48,7 +48,7 @@ const HeroSection = () => {
       <div style={overlayStyle}>
         <h1 className="">Darpan Enterprises</h1>
         <div>
-          <p className="fs-4">
+          <p className="fs-6 text-center p-2">
             Crafts stunning, functional spaces with expert design, construction,
             and glass & aluminum work.
           </p>
